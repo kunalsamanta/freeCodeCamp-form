@@ -7,13 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form id="survey-form">
-        <input id="name" type="text">
-        
+    <div class="container">
+        <header class="header">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="label-name" for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+
+            </div>
+            <div class="form-group">
+                 <label id="email-label"for="email">Email</label>
+                 <input type="email" id="email" placeholder="Enter your email adddress">
+
+
+            </div>
+            <div class="form-group">
+                
+            </div>
+            <div class="form-group"></div>
+            <div class="form-group"></div>
+            <div class="form-group"></div>
+            <div class="form-group"></div>
+            <div class="form-group"></div>
+
     </form>
-    
+    </div>
 </body>
 <script src="index.js"></script>
 </html>
